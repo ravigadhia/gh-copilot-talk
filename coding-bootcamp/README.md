@@ -4,7 +4,7 @@
 
 ## What is GitHub Copilot?
 
-GitHub Copilot is an AI pair programmer that helps you write code faster. GitHub Copilot draws context from the code you’re working on, suggesting whole lines or entire functions. It helps you quickly discover alternative ways to solve problems, write tests, and explore new APIs without having to tediously tailor a search for answers on the internet. GitHub Copilot is powered by OpenAI GPT-4(?), a new AI system created by OpenAI.
+GitHub Copilot is an AI pair programmer that helps you write code faster. GitHub Copilot draws context from the code you’re working on, suggesting whole lines or entire functions. It helps you quickly discover alternative ways to solve problems, write tests, and explore new APIs without having to tediously tailor a search for answers on the internet. GitHub Copilot is powered by large language models trained on a mixture of publicly available code, code from GitHub, and data from the public web. It is designed to help with programming tasks and serves as your assistant while you're working in your IDE.
 
 You can use it in your favorite editor - Visual Studio, Visual Studio Code, many JetBrains IDEs (Pycharm, RubyMine, WebStorm, IntelliJ and more), Neovim and also works with Azure Data Studio.
 
@@ -12,7 +12,7 @@ You will install the AI assistant as an extension and if you're using jetbrains 
 
 ## Getting Started Locally
 - clone repo
-- `cd` into the project, then `cd` into `copilot-101` directory
+- `cd` into the project, then `cd` into `coding-bootcamp` directory
 - open terminal and run `npm i`
 - to start presentation, run `npm run dev` this will open up the presentation for ya or you can click the link in your terminal
 - you can make changes to the slides by editing the `slides.md` file
