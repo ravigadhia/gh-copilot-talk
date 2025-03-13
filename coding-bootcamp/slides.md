@@ -326,60 +326,36 @@ h1 {
 
 <!--
 behind the scenes.
-It returns suggestions to your editor where you choose what to accept or ignore.
-KEY REMEMBER it will no act agentically for you.
+Copilot returns suggestions to your editor where you choose what to accept or ignore.
 
-GitHub Copilot shares data in an ephemeral way. It’s shared just long enough for GitHub Copilot to provide a suggestion. We do not take that code and put it back into the data model for suggestions.
+KEY THING TO REMEMBER it will no act agentically for you.
+GitHub Copilot shares data in an ephemeral way. It’s shared just long enough for GitHub Copilot to provide a suggestion. We do not take that code and put it back into the data model.
 
-All of this information flows into what we call the Prompt Library
-The Prompt Library
-Think of the Prompt Library as a smart organizer. It:
+The Technical Flow:
 
-Takes all this local context
-Prioritizes what's most relevant
-Structures it in a way the AI can understand
-Creates a formatted prompt
+Context Collection:
+Analyzes your current file, open tabs, and file structure
+Captures code before and after your cursor position
+Maps relevant dependencies and patterns
 
-We're constantly improving how this library works to provide better context from all available sources
 
-The Prompt
-"The prompt is fascinating because it contains:
+Prompt Formation:
+Uses a "Fill-in-the-Middle" approach with prefix and suffix text
+Prioritizes local context using the Prompt Library
+Structures data into an AI-optimized format
 
-Text before your cursor (the prefix)
-Text after your cursor (the suffix)
-Relevant context from your coding session
+AI Processing:
+Runs your context through a filter model for appropriateness and quality
+Feeds filtered prompt to a GPT model trained on code
+Generates multiple code completions in parallel
 
-This 'Fill-in-the-Middle' approach is what makes Copilot so effective at understanding your intent."
-Server-Side Processing
-"Once the prompt is ready, it moves to GitHub's servers where three crucial steps happen:
-Contextual Filter Model
-"First, a filter examines the prompt and session context to decide if:
+Suggestion Delivery:
+Returns the highest-quality completions to your editor
+Processes code temporarily - doesn't store your code in training data
+Presents suggestions as you type, with no action required
 
-- The request is appropriate
-- The context is sufficient
-- A suggestion would be helpful
-This is like a quality control checkpoint before involving the main AI model.
-
-GPT Model
-"If approved, the prompt goes to the GPT model, which:
-
-Analyzes the context
-Understands the programming patterns
-Generates multiple possible completions
-We're continuously working on improving these model engines specifically for Copilot.
-
-Completion Generation
-"The model generates 'n' completions - multiple suggestions that could work in your context. These are then filtered one final time before being shown to you."
-Final Output
-"The last step is showing you '≤n completions' - meaning you might see one or several suggestions, but always the best ones the system generated."
-Continuous Improvement
-"What makes this system particularly powerful is that it's constantly evolving:
-
-The local components are getting better at providing context
-The server components are being optimized for better suggestions
-The entire pipeline is being refined for speed and accuracy
-
-Understanding this lifecycle helps you work more effectively with Copilot. When you know how it processes context and generates suggestions, you can better structure your code and prompts to get the most helpful completions.
+Key Technical Point:
+Copilot doesn't just match patterns - it understands code semantics and can generate novel solutions based on your specific context.
 -->
 
 ---
