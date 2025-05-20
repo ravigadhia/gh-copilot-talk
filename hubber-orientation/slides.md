@@ -202,6 +202,10 @@ transition: fade-out
 - Copilot in the CLI
 - Copilot PR Summaries (ent)
 - Copilot Knowledge bases (ent)
+- Copilot Workspace (preview)
+- Copilot Enterprise (GA)
+- Copilot Edits (multi-file changes)
+- Copilot Agent Mode (preview)
 - Copilot Extensions (Public beta)
 - Copilot Autofix for CodeQL
 
@@ -210,7 +214,7 @@ transition: fade-out
 <!--
 GitHub Copilot is comprised of a suite of products that goes beyond code completion.
 
-Some of the tools that accompany GitHub Copilot includes a chat interface that you can use in your IDE, a command line tool via a GitHub CLI extension, GitHub Copilot for PRs, Copilot integrated into dotcom and many more. Today, we'll be looking at a few of the features that I've found to be most useful during my everyday development.
+Some of the tools that accompany GitHub Copilot includes a chat interface that you can use in your IDE, a command line tool via a GitHub CLI extension, GitHub Copilot for PRs, Copilot Workspace for navigating large codebases, Copilot Enterprise for company-specific customization, multi-file editing capabilities, agent-based assistance, and more. Today, we'll be looking at a few of the features that I've found to be most useful during my everyday development.
 
 
 -->
@@ -412,10 +416,12 @@ transition: fade-out
 # Resources
 
 - [Coding with an AI Pair Programmer](https://youtu.be/dhfTaSGYQ4o?si=wdhu3C7uwG5cqX0K)
-- [What's new with GitHub Copilot from VsCode team](https://twitter.com/code/status/1737903911237718467)
-- [How to use GitHub Copilot: Prompts, tips, and use cases](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/)
+- [GitHub Copilot Workspace now in public beta](https://github.blog/2024-05-30-github-copilot-workspace-now-in-public-beta/)
+- [GitHub Copilot Enterprise is now generally available](https://github.blog/2024-02-27-github-copilot-enterprise-is-now-generally-available/)
+- [Using GitHub Copilot in your IDE: Tips, tricks and best practices](https://github.blog/2024-03-25-how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/)
+- [10 unexpected ways to use GitHub Copilot](https://github.blog/2024-01-22-10-unexpected-ways-to-use-github-copilot/)
+- [How to write better prompts for GitHub Copilot](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/)
 - [Prompting GitHub Copilot Chat to become your personal AI assistant for accessibility](https://github.blog/2023-10-09-prompting-github-copilot-chat-to-become-your-personal-ai-assistant-for-accessibility/)
-- [How to build a GPT-3 App with Nextjs, React, and GitHub Copilot](https://github.blog/2023-07-25-how-to-build-a-gpt-3-app-with-nextjs-react-and-github-copilot/)
 - [Demo repo - MealMetrics](https://github.com/LadyKerr/mealmetrics-copilot)
 - [Code Smarter not Harder slides and repo](https://github.com/LadyKerr/gh-copilot-talk)
 
