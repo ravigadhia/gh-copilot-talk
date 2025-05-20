@@ -247,8 +247,10 @@ transition: fade-out
 - 💻 Extending and refactoring existing code
 - 🔖 Explaining unfamiliar code
 - 📝 Documentation (which we all love to write!)
-- 🚨 Understandiing error messages (and fixing it!)
+- 🚨 Understanding error messages (and fixing it!)
 - 🧪 Writing unit tests
+- 🔄 Multi-file edits for complex changes
+- 🧭 Workspace planning and codebase navigation
 
 . . . and much more! 🚀
 
@@ -372,14 +374,13 @@ what else can I add to the game?
 - implement suggestions
 - ask: can I create wave sounds and save it as particle.wav?
 
-- show slash commands, agents,
-- /test . . . and all
+- show slash commands, agents
+- /test ... and all
 - @github what can you do? how can I use git?
 - #file:game.py generate a readme file for this game
+- demonstrate multi-file edits with /edit command
 
-
-## DOTCOM - Chat is Ent only currently
-**On devrel repo**
+## DOTCOM - Features
 - ask copilot: what are the most recent issues assigned to me?
 - ask copilot: summarize this issue
 - ask copilot: how do I create a markdown table?
@@ -388,6 +389,8 @@ what else can I add to the game?
 - Push code and generate a summary
 - highlight code and ask for explanations/help
 - go to repo, highlight function, ask for help: https://github.com/LadyKerr/noseknows-demo
+- demonstrate Copilot Workspace for project planning (if available)
+- show enterprise features for those with access
 
 -->
 
